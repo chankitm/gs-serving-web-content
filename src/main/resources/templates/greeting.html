@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Getting Started: Serving Web Content</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<p th:text="'Hello, ' + ${name} + '!'" />
+		<form>
+			<input type="radio" name="gender" value="male" checked> Male<br>
+			<input type="radio" name="gender" value="female"> Female<br>
+			<input type="radio" name="gender" value="other"> Other  
+		</form>
+		<select>
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="opel">Opel</option>
+			<option value="audi">Audi</option>
+		</select>
+	</body>
+</html>
